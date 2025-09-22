@@ -89,3 +89,15 @@ to check all the commits made
 git log --oneline
 
 ```
+
+#### To check details of a commit
+
+copy the commit id from the log
+
+run
+
+```
+git show <commitid>
+```
+
+press q to come out
