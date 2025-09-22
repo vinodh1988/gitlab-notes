@@ -56,7 +56,18 @@ Check the status of the repository
 git status
 ```
 	 
-	 
+To track the file you need to stage it
+
+Staging: making the file/files ready to be commited, yet
+tracked by the local repository
+
+to stage, run the following command
+
+```
+git add index.html
+```
+
+if you give , git add .  all the untracked files will be added
 	 
 	 
 	   
