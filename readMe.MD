@@ -80,4 +80,12 @@ to commit
 git commit -m " your message "
 
 ```
-	   
+
+#### Checking the logs
+
+to check all the commits made
+
+```
+git log --oneline
+
+```
