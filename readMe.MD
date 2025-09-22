@@ -36,7 +36,19 @@ Developer Activities
 	 first it has to tracked
 	 
 	
-	 
+### Exercise 1 - Pushing the code
+
+create a file index.html
+
+add the following code into it
+
+```
+<html>
+    <body>
+        <h1>Hello!</h1>
+    </body>
+</html>
+```
 	 
 	 
 	 
