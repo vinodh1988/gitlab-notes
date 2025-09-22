@@ -50,9 +50,11 @@ add the following code into it
 </html>
 ```
 	 
-	 
-	 
-	 
+Check the status of the repository
+
+```
+git status
+```
 	 
 	 
 	 
