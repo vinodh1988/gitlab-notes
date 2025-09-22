@@ -69,6 +69,15 @@ git add index.html
 
 if you give , git add .  all the untracked files will be added
 	 
-	 
-	   
+#### Commiting the file
+
+commiting means adding the file to local repository
+
+to commit
+
+```
+
+git commit -m " your message "
+
+```
 	   
