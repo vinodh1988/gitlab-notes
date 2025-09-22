@@ -96,8 +96,29 @@ copy the commit id from the log
 
 run
 
+
+
 ```
 git show <commitid>
 ```
 
 press q to come out
+
+#### To check what brach you are currently in
+
+Run
+
+```
+git branch
+```
+
+the branch with * is the current
+
+#### To check what is the remote origin
+
+To know to which central repo you are connected
+
+```
+git remote get-url origin
+```
+
