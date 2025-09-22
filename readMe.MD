@@ -122,3 +122,9 @@ To know to which central repo you are connected
 git remote get-url origin
 ```
 
+### To push the code
+
+run
+```
+git push origin main
+```
