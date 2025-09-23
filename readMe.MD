@@ -253,3 +253,8 @@ Two accounts
 In the original account
 create a project named - TeamCollab
 
+Under Manager > click Members
+
+* Add a new member
+* Add the email of your second account
+* Set the role as Developer
