@@ -185,3 +185,15 @@ if there is no conflicts, you can merge the fetched code
 ```
 git  merge
 ```
+
+5. #### Git pull
+
+create a file third. txt in web ide with some content
+and commit it with message third-text
+
+locally
+
+```
+git pull
+```
+
