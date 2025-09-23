@@ -130,7 +130,7 @@ git push origin main
 ```
 
 ### Case Study - Comparing, Pulling , Fetching and Handling Conflicts
-
+1. 
 In the local repository
 create a file index. html
 add any random content
@@ -141,8 +141,20 @@ git add .
 git commit -m first-commit
 git push
 ```
-
+2. 
 open Web iDE 
 create a file named second.txt add some content
 graphically
 commit it with a message second-commit
+
+3. In the Local repository, add a new file index.css
+add some content and
+
+```
+git add .
+git commit -m css-commit
+git push
+```
+
+Note: you will get an error, because in central repo you have
+and additional commi which you do not have locally
