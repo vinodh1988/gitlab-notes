@@ -242,3 +242,10 @@ git diff main feature1
 git merge feature1
 git push 
 ```
+
+### Project Collaboration - Merge Request -Branch Security -Strategy
+
+Two accounts
+
+1. Original account - browser1 (We are going to use it as Admin)
+2. Another account - browser2 (This one as Contributor/Developer)
