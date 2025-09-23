@@ -1,0 +1,63 @@
+
+Main
+----
+Commit1
+
+   line1
+   line2 
+     (x.txt)
+	 
+commit3
+    line2.1
+	line2.2
+	  
+	  (x.txt)
+	 
+	 if open in the editor
+	 
+	 line1
+	 line2
+	 line2.1
+	 line2.2
+	 
+	 (first two lines because of commit1, last two lines
+	 because of commit3)
+	 
+Feature1
+--------
+
+   line1
+   line2
+      (x.txt)  - commit1
+   line3
+      (x.txt)  - commit2   
+	  
+	  
+	 
+Merging
+---------
+
+   if you try to merge feature1 ---> main
+   
+   this point of time it becomes a conflic
+   
+   Before Scenario
+   
+   Feature1                             Main
+   line1                                line1
+   line2(commit1)					    line2(commit1)
+   line3 (commit2)----------------->    line3 (commit2)
+   
+       this is called merge (no conflict)
+	   
+	 
+   Latest Scenario
+
+Feature1                             Main
+   line1                                line1
+   line2(commit1)					    line2(commit1)
+   line3 (commit2)                      line2.1
+                                        line2.2 (commit3)
+
+                   ------------->  XXXXXXXXX										
+	
