@@ -128,3 +128,16 @@ run
 ```
 git push origin main
 ```
+
+### Case Study - Comparing, Pulling , Fetching and Handling Conflicts
+
+In the local repository
+create a file index. html
+add any random content
+stage it and commit it
+
+```
+git add .
+git commit -m first-commit
+git push
+```
