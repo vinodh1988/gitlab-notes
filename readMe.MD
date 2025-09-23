@@ -270,3 +270,11 @@ open the project in the web ide
 add the file x.txt
 
 commit it into a branch called feature1
+
+### In the Owner account
+
+open the merge request
+
+click merge button
+
+Merge operation is complet
