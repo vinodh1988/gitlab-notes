@@ -213,3 +213,15 @@ git branch
 
 git checkout feature1
 ```
+
+
+create a file feature1.txt
+
+add some content
+
+```
+
+git add .
+git commit -m feature-commit
+
+```
