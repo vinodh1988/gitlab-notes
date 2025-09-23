@@ -1,0 +1,58 @@
+Branch Merging
+---------------
+
+
+
+Branch Strategy
+---------------
+Team?
+
+    Challenges
+	--------------
+	
+	  Team of developers/testers/operation
+	  everyone works with same code base but for different purposes
+	  
+	  developers
+				1. developing new code
+				2. modifying/maintaing existing code
+				3. patching small pieces of code in existing code
+				4. unit test code
+				
+	  Testers
+	  
+				1. Testing code
+				
+	  Operation team
+	  
+				1. Will use the deployable code 
+				to deploy in the infra
+				
+in order make the work flow smooth we maintain
+the single repository with different branch
+
+
+main - single point of truth (which is usually protected
+not easily allowed to accessed directly by developers,testers)
+
+if a new feature is developed by a developers
+
+the developer would create a new branch from main
+and start developing in their own feature branch
+and push code into feature branch of the central repository
+
+we will not allow to merge in main repository directly
+
+
+The user after pushing the code (feature branch) to central
+repo , should make a request to the concerned people
+with permissions(team lead,code reviewers) to merge
+your code to the main
+
+this request is called as MergeRequest (gitlab)/ PullRequest(bitbucket
+,github,azure repos)
+
+upon approval the code will be merged
+				
+				
+				
