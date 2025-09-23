@@ -262,3 +262,11 @@ Under Manager > click Members
 Click Branches
 Click Branch rules
 Check current main branch rules , it is protected branch
+
+### in the second developer account
+
+open the project in the web ide
+
+add the file x.txt
+
+commit it into a branch called feature1
