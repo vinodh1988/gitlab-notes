@@ -197,3 +197,19 @@ locally
 git pull
 ```
 
+
+### Branching 
+
+A Branch is a seperate line of code and files 
+which is always created from an existing branch
+
+to create a branch 
+
+```
+git branch <branchname>
+ex: git branch feature1
+
+git branch
+
+git checkout feature1
+```
