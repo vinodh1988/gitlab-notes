@@ -141,3 +141,8 @@ git add .
 git commit -m first-commit
 git push
 ```
+
+open Web iDE 
+create a file named second.txt add some content
+graphically
+commit it with a message second-commit
