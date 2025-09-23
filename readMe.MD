@@ -230,3 +230,15 @@ git commit -m feature-commit
 ```
 git push origin feature1
 ```
+
+#### Merging Locally into main branch
+
+Switch to main branch
+and merge feature1 branch
+
+```
+git checkout main
+git diff main feature1
+git merge feature1
+git push 
+```
