@@ -258,3 +258,7 @@ Under Manager > click Members
 * Add a new member
 * Add the email of your second account
 * Set the role as Developer
+
+Click Branches
+Click Branch rules
+Check current main branch rules , it is protected branch
