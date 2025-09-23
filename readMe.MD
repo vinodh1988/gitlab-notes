@@ -179,3 +179,9 @@ you can compare local repo with remote repo using git diff command
 ```
 git diff main origin/main
 ```
+
+if there is no conflicts, you can merge the fetched code
+
+```
+git  merge
+```
