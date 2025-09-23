@@ -158,3 +158,24 @@ git push
 
 Note: you will get an error, because in central repo you have
 and additional commi which you do not have locally
+ 4. 
+#### Git Fetch
+
+Instead of pullin, which actually adds the files directly into
+the repos
+
+we can first bring in the changes with actually
+commiting the changes locally
+
+this can be done using
+
+```
+git fetch 
+```
+it will fetch changes but will not merge the changes locally
+
+you can compare local repo with remote repo using git diff command
+
+```
+git diff main origin/main
+```
