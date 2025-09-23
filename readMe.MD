@@ -249,3 +249,7 @@ Two accounts
 
 1. Original account - browser1 (We are going to use it as Admin)
 2. Another account - browser2 (This one as Contributor/Developer)
+
+In the original account
+create a project named - TeamCollab
+
