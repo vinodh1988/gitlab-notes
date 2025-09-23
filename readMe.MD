@@ -225,3 +225,8 @@ git add .
 git commit -m feature-commit
 
 ```
+
+
+```
+git push origin feature1
+```
