@@ -329,6 +329,29 @@ Create a local git repo
  The you add files
  commit and push it
  
+ #### The reset command
+
+ Create a a.txt
+
+ ```
+ git add .
+ git commit -m file1
+ ```
+ 
+  Create a b.txt
+
+ ```
+ git add .
+ git commit -m file2
+ ```
+ 
+ 
+  Create a c.txt
+
+ ```
+ git add .
+ git commit -m file3
+ ```
  
  
  
