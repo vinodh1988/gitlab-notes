@@ -284,3 +284,8 @@ Merge operation is complet
 
 Create a project in your first account
 and invite the second user
+
+1. In your original account
+go to Branches
+create a new branch named release
+ visit the branch setting page again
