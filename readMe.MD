@@ -289,3 +289,8 @@ and invite the second user
 go to Branches
 create a new branch named release
  visit the branch setting page again
+
+ 2. In the second account
+ open your project and open WEB IDE
+
+ and create a branch named feature1
