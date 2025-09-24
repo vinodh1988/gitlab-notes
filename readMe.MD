@@ -294,3 +294,49 @@ create a new branch named release
  open your project and open WEB IDE
 
  and create a branch named feature1
+
+
+ ### Excercise - Dealing the push conflicts, merge conflicts,branch differences, undo, etc
+
+ New Project
+---------------
+
+Technique 1 (all other developers)
+--------------
+Create a project structure and code in the central repo
+first
+
+and in all the local machines clone the project
+
+
+when you clone remote will be preconfigured and default branch would
+be main
+
+Technique2 (primary person who created the project)
+---------------
+
+Create a local project and structure in a folder
+
+Create a local git repo
+ 
+ How?
+          git init
+		  
+ Git remote  add origin <remote project https url>
+ 
+ Note: you should create a project in central repo with out any readme file
+ 
+ The you add files
+ commit and push it
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
