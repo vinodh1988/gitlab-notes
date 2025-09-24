@@ -379,6 +379,33 @@ Create a local git repo
  ```
  git clean -f
  ```
+
+ #### The revert command
+
+ 
+
+The changes in b file is done in two parts
+
+line1
+line2      (part1)  commit1
+
+line3
+			(part2)  commit3
+			
+			
+the changes in c file is done in two parts
+
+line1
+line2      (part1)  commit2
+
+line3     (part2)   commit4
+
+After analysis
+
+commit3 and commit 4 can be un done directly
+
+commit 1 or commit 2 can be undone only after undoing their
+respective followsup commit3 and commit4
  
  
  
