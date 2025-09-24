@@ -278,3 +278,9 @@ open the merge request
 click merge button
 
 Merge operation is complet
+
+#### Release branching strategy
+----------------------------------
+
+Create a project in your first account
+and invite the second user
