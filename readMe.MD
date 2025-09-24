@@ -354,6 +354,31 @@ Create a local git repo
  ```
  
  
+ check log
+
+ ```
+ git log --oneline
+ ```
+
+ reset to the commit of file1
+
+ ```
+ git reset <commit id of file1>
+ ```
+
+ to clear the untracked files
+
+ first check what would be deleted
+
+ ```
+ git clean -n
+ ```
+
+ clean the tree with
+
+ ```
+ git clean -f
+ ```
  
  
  
