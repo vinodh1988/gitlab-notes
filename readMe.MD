@@ -407,7 +407,9 @@ commit3 and commit 4 can be un done directly
 commit 1 or commit 2 can be undone only after undoing their
 respective followsup commit3 and commit4
  
- 
+ #### the stash command
+
+
  
  
  

@@ -1,0 +1,30 @@
+
+
+Git branching strategies
+
+   gitflow
+   release
+   trunk based
+   feature
+   
+   forking
+   
+   
+ demo for release strategy
+ 
+ how to secure branches
+ 
+ 
+ How to create repo locally using git init
+ and how to connect to remote using git remote command
+ 
+ 
+ reset
+ 
+ revert
+ 
+ stash
+ 
+ cherry picking
+ 
+ 
