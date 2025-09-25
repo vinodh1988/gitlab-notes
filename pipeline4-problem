@@ -1,0 +1,26 @@
+
+
+Code ? gitlab - xxxxx
+
+Code ? Github
+
+
+What kind of project it is ? Java project
+
+What are we going to do ? 
+
+We are going to build it , test it
+and package it - Continous integration
+
+ We will use gitlab pipeline
+ 
+ since it is a maven based project
+ to build test and package we need to have mvn command
+ 
+ so we use a maven image
+ 
+Outcome?
+
+  The project will packaged 
+  and the artifacts will be
+  stored in gitlab
