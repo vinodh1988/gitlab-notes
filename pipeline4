@@ -1,0 +1,19 @@
+---
+stages:
+  - external
+
+external-build:
+  image: maven:3.8.3-eclipse-temurin-17
+  stage: external
+  script:
+    - echo "External build is running"
+    - git clone "https://github.com/vinodh1988/tomcat-deploy"
+    - cd tomcat-deploy
+    - ls
+    - mvn clean package
+  artifacts:
+    name: maven-project-artifacts
+    paths:
+      - tomcat-deploy/**
+    exclude:
+      - tomcat-deploy/.git/
