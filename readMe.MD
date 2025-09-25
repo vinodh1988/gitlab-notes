@@ -460,6 +460,7 @@ switch to testing branch
 to update the content that is changed in master
 
 ```
+git checkout testing
 git rebase master
 ```
  
