@@ -487,5 +487,12 @@ in the editor
 
 Replace second and third Pick with squash
 
+Switch to master
+
+```
+git checkout master
+git merge testing
+```
+
 
 
