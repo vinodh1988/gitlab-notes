@@ -478,6 +478,12 @@ git add .
 git commit -m testing3
 ```
  
+ switch to master
+
+ ```
+ git checkout master
+ ```
+
  
  
 
