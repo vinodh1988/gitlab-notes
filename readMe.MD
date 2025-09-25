@@ -463,6 +463,20 @@ to update the content that is changed in master
 git checkout testing
 git rebase master
 ```
+
+### Git Squash
+
+already in testing branch 
+we have commits
+testing1
+testing2
+
+add one more file testing3
+
+```
+git add .
+git commit -m testing3
+```
  
  
  
