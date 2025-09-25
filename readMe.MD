@@ -478,9 +478,14 @@ git add .
 git commit -m testing3
 ```
  
+Run
+```
+git rebase -i HEAD~3
+```
 
+in the editor
 
- 
+Replace second and third Pick with squash
 
 
 
