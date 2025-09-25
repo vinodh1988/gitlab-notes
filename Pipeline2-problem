@@ -1,0 +1,28 @@
+First Pipeline?
+---------------
+
+Static Website?
+----------------
+  Just Html code no back code 
+  all we need is a hosting environment/webserver
+  to deploy it
+  
+  
+  gitlab itself  provides hosting facility
+  to hosting a static website
+  in a feature called gitlab pages
+  
+  and in every project youcreate
+  they give you gitlab pages space
+  
+  and you can host
+  your static code
+  
+  to make it work
+  you have to put your website
+  source code in a folder
+  named public
+  
+  First pipeline
+  ----------------
+  Deploying our static website into gitlab pages
