@@ -426,6 +426,34 @@ git checkout testing
 git branch
 ```
 
+
+in the testing branch
+add a file testing1
+
+```
+git add .
+git commit -m testing1
+```
+add a file testing2
+
+```
+git add .
+git commit -m testing2
+```
+
+now switch to master again
+
+```
+git checkout master
+```
+
+in master
+create a file masternew.txt
+
+```
+git add .
+git commit -m masternew
+```
  
  
  
