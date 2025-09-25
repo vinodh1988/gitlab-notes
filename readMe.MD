@@ -455,6 +455,13 @@ git add .
 git commit -m masternew
 ```
  
+switch to testing branch
+
+to update the content that is changed in master
+
+```
+git rebase master
+```
  
  
  
