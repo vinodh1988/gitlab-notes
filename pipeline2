@@ -1,0 +1,8 @@
+pages:
+  script:
+    - echo "Publishing manually maintained public/ folder"
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
