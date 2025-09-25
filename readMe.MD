@@ -410,6 +410,22 @@ respective followsup commit3 and commit4
  #### the stash command
 
 
+##### The rebase command
+
+in the master branch 
+
+create a final initial
+
+and commit it with the message initial
+
+and create a new branch
+
+```
+git branch testing
+git checkout testing
+git branch
+```
+
  
  
  
