@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitLab Features</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Using Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #fc6d26;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .features-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      padding: 2rem;
+    }
+    .feature {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+    .feature:last-child {
+      margin-bottom: 0;
+    }
+    .icon {
+      font-size: 2rem;
+      color: #fc6d26;
+      margin-right: 1rem;
+      min-width: 2.5rem;
+      text-align: center;
+    }
+    .feature-title {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #222;
+    }
+    .feature-desc {
+      color: #444;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><i class="fa-brands fa-gitlab"></i> GitLab Features</h1>
+  </header>
+  <div class="features-container">
+    <div class="feature">
+      <span class="icon"><i class="fa-solid fa-code-branch"></i></span>
+      <div>
+        <div class="feature-title">Source Code Management</div>
+        <div class="feature-desc">Host, review, and manage your code repositories with flexible branching strategies.</div>
+      </div>
+    </div>
+    <div class="feature">
+      <span class="icon"><i class="fa-solid fa-gear"></i></span>
+      <div>
+        <div class="feature-title">CI/CD Pipelines</div>
+        <div class="feature-desc">Automate testing, building, and deployment with powerful built-in CI/CD tools.</div>
+      </div>
+    </div>
+    <div class="feature">
+      <span class="icon"><i class="fa-solid fa-shield-halved"></i></span>
+      <div>
+        <div class="feature-title">Security & Compliance</div>
+        <div class="feature-desc">Integrated security testing and compliance tools for safe application delivery.</div>
+      </div>
+    </div>
+    <div class="feature">
+      <span class="icon"><i class="fa-solid fa-users"></i></span>
+      <div>
+        <div class="feature-title">Collaboration</div>
+        <div class="feature-desc">Merge requests, code reviews, and issue tracking for effective teamwork.</div>
+      </div>
+    </div>
+    <div class="feature">
+      <span class="icon"><i class="fa-solid fa-rocket"></i></span>
+      <div>
+        <div class="feature-title">DevOps Lifecycle</div>
+        <div class="feature-desc">Manage your complete DevOps lifecycle—from planning to monitoring—in one platform.</div>
+      </div>
+    </div>
+    <div class="feature">
+      <span class="icon"><i class="fa-solid fa-cloud"></i></span>
+      <div>
+        <div class="feature-title">Cloud Native</div>
+        <div class="feature-desc">Seamless integration with Kubernetes and cloud infrastructure for modern deployments.</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
