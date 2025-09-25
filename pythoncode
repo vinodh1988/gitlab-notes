@@ -1,0 +1,5 @@
+print("Python code is working")
+a=20
+b=50
+c=a+b
+print("The value of c is: ",c)
