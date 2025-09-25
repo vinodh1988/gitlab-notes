@@ -1,0 +1,65 @@
+
+
+Continous Integration/Continous Deployment/Delivery
+
+Continous Integration
+----------------------
+
+if a code is commited to a target branch
+
+ if we automatically
+ 
+    load the code
+	verify the code whether it is secured?
+	if we compile it
+    build it
+	and package it and store it in a artifact(end files
+	that are created) repository
+	
+	this is called continous integration
+	
+	
+continous deployment
+------------------------
+
+upon succesful completion 
+of CI
+
+if the the packaged
+application is deployed
+on specific target
+( VMs,Webservers
+,cloud services,
+container services)
+
+	
+	We do this multiple stages
+	like
+	
+	fetch the code
+	build stage
+	testing stage
+	deployment stage
+	
+	
+In gitlab 
+we do this through script
+(yaml configuration)
+
+the ci/cd script
+is called pipeline
+
+and it is 
+generally written in a file called
+.gitlab-ci.yml
+
+There is a program/agent
+called gitlab runner
+in the gitlab cloud
+to take care of the 
+execution of your pipeline
+
+and gitlab 
+runs the pipeline
+on containers
+
