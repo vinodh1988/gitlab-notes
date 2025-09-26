@@ -1,0 +1,38 @@
+Next Case Study
+-----------------
+
+A Common Docker based build pipeline
+
+
+if a project is containerization project
+
+Continous integration
+-------------------------
+
+    build the code (if necassary)
+	
+	docker build  (the project must have Dockerfile)
+	 
+	          outcome: a docker image is created
+			  
+	docker push
+	          outcome: the docker image will be stored in docker hub
+			  
+	
+Continous delivery
+--------------------
+
+      Target:  kubernetes, openshift, ecs...
+	  
+	  According to the target
+	  
+	  we may write yaml instructions
+	  to pick the image
+	  store in docker hub
+	  from the previous stage
+	  
+	  and deploy it in the target(
+	  
+	  kubernetes,openshift....)
+	  
+	  
